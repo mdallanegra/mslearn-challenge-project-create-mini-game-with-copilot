@@ -28,7 +28,8 @@ def get_computer_choice():
 
 def determine_winner(user_choice, computer_choice):
     """
-    Determine the winner of the game based on the user's choice and the computer's choice.
+    Determine the winner of the game based on the user's choice and 
+    the computer's choice.
     """
     if user_choice == computer_choice:
         return 'draw'
